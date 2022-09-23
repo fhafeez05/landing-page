@@ -9,28 +9,24 @@
 
 .header {
     display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.inner-header {
-    background-color: white;
-    border: 3px solid #333;
-    margin: 10px;
-    justify-content: center;
-}
-
+ .header-item, .topItem, .midTopItem, .midBottomItem, .bottomItem, .footerItem {
+    margin-right: 15%;
+    margin-left: 15%;
+ }
 .header img {
-    width: 100px;
-    flex-grow: 2;
+    width: auto;
+    height: 80px;
 }
-
-.header .links {
-    align-self: flex-end;
-}
-
-
 
 .top {
     display:flex;
+} 
+
+.topItem {
+
 }
 
 .middle-top {
