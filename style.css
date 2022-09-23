@@ -1,0 +1,51 @@
+.container div {
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+.header, .top{
+    background-color: #1F2937;
+}
+
+.header {
+    display:flex;
+}
+
+.inner-header {
+    background-color: white;
+    border: 3px solid #333;
+    margin: 10px;
+    justify-content: center;
+}
+
+.header img {
+    width: 100px;
+    flex-grow: 2;
+}
+
+.header .links {
+    align-self: flex-end;
+}
+
+
+
+.top {
+    display:flex;
+}
+
+.middle-top {
+    display:flex;
+}
+
+.middle-bottom{
+    display:flex;
+}
+
+.bottom{
+    display:flex;
+}
+.footer {
+    display:flex;
+}
+
+
