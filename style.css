@@ -1,6 +1,8 @@
 .container div {
     border: 1px #ccc solid;
     padding: 10px;
+    
+
 }
 
 .header, .top{
@@ -23,25 +25,38 @@
 
 .top {
     display:flex;
+    
+
 } 
 
 .topItem {
+    text-align: center;
+    align-items:center ;
+}
 
+.top img {
+    height: auto;
+    width: 500px;
 }
 
 .middle-top {
     display:flex;
-}
+
+} 
 
 .middle-bottom{
     display:flex;
+
 }
 
 .bottom{
     display:flex;
+
 }
+
 .footer {
     display:flex;
+
 }
 
 
