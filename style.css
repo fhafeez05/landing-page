@@ -58,8 +58,26 @@ button {
 
 .middle-top {
     display:flex;
-
+    justify-content: center;
 } 
+
+h1 {
+    text-align: center;
+}
+
+.leftMost img {
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+}
+.middle-top img {
+    border-radius: 15px;
+    width: 150px;
+    border: 3px solid #3882f6;
+   
+}
 
 .middle-bottom{
     display:flex;
